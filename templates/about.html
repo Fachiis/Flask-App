@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <h1 class="mt-3">About Us</h1>
+    <p>Starting with version 3.9, Django REST Framework introduced built-in support for
+    the OpenAPI schema (formerly known as Swagger). This will eventually replace the
+    current approach of using Core API to generate the schemas.
+    However as this is an iterative transition we will use the traditional Core API approach
+    in our project to automatically generate an API schema. Core API is format-indepen-
+    dent which means it can be used in a wide variety of documentation. Basically you will
+    usually use Core API as a first step to generate a schema, and then decide on which
+    document format you want to use it in.
+    We also need to install pyyaml which will let us render our schema in the commonly
+    used YAML-based OpenAPI forma</p>
+{% endblock body %}
+
